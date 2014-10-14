@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CardiacDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_disease">Select your disease</string>
+    <string name="tvOutput">Here is the text description</string>
+    <string name="view">View</string>
+
+</resources>

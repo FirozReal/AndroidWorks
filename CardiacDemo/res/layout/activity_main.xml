@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firoz.cardiacdemo.MainActivity" >
+
+    <Spinner
+        android:id="@+id/spinnerDiseaseList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:spinnerMode="dropdown" 
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnView"
+        style="android:buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerDiseaseList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/view"
+        android:textStyle="bold"
+        android:onClick="clickEvent" />
+
+    <TextView
+        android:id="@+id/textViewOutput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnView"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="verdana"
+        android:textSize="20sp"
+        
+    />
+
+"
+
+</RelativeLayout>
